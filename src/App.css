@@ -26,6 +26,14 @@ body::-webkit-scrollbar {
   font-family: 'Montserrat', sans-serif;
 }
 
+.Nav-text:hover {
+  color: black;
+}
+
+.Nav-text:focus {
+  color: white;
+}
+
 h4 {
   line-height: 145%;
 }
