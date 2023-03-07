@@ -18,8 +18,8 @@ function Navigation() {
                                                 const element = document.getElementById("about");
                                                 element.scrollIntoView({behavior: 'smooth'});
                                                 }}>ABOUT ME</Nav.Link>
-                <Nav.Link className="Nav-text" as={Link} to="./Experience">EXPERIENCE</Nav.Link>
-                <Nav.Link className="Nav-text" as={Link} to="./Contact">SAY HELLO</Nav.Link>
+                <Nav.Link className="Nav-text" as={Link} to="./anikalthh.github.io/Experience">EXPERIENCE</Nav.Link>
+                <Nav.Link className="Nav-text" as={Link} to="./anikalthh.github.io/Contact">SAY HELLO</Nav.Link>
             </Nav>
         </Container>
     </Navbar>)

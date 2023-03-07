@@ -13,8 +13,8 @@ function App() {
         <Navigation />
         <Routes>
             <Route path="/" element={<HomePage />}></Route>
-            <Route path="/Experience" element={<Experience />}></Route>
-            <Route path="/Contact" element={<Contact />}></Route>
+            <Route path="/anikalthh.github.io/Experience" element={<Experience />}></Route>
+            <Route path="/anikalthh.github.io/Contact" element={<Contact />}></Route>
         </Routes>
       </HashRouter>
     </div>
