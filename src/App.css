@@ -123,6 +123,8 @@ h4 {
   color: #7882A4;
 }
 
+/* ABOUT SECTION */
+
 .about-section {
   font-family: 'DM Serif Display', serif;
   position: relative;
@@ -132,6 +134,168 @@ h4 {
   padding: 1.5%;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.sparkle-1 {
+  height: 11.5vh;
+  top: 95px;
+  left: 85px;
+  position: absolute;
+  animation-name: sparkle-grow;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+}
+
+.sparkle-2 {
+  height: 10.5vh;
+  bottom: 105px;
+  right: 183px;
+  position: absolute;
+
+  animation-name: sparkle-grow;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+}
+
+.sparkle-3 {
+  height: 5vh;
+  bottom: 75px;
+  right: 230px;
+  position: absolute;
+
+  animation-name: sparkle-grow-2;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+.sparkle-4 {
+  height: 5vh;
+  top: 83px;
+  left: 143px;
+  position: absolute;
+
+  animation-name: sparkle-grow-3;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.sparkle-5 {
+  height: 4vh;
+  top: 158px;
+  left: 149px;
+  position: absolute;
+
+  animation-name: sparkle-grow-2;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-duration: 1s;
+  animation-delay: 0.2s;
+  animation-iteration-count: infinite;
+}
+
+.sparkle-6 {
+  height: 5vh;
+  bottom: 133px;
+  left: 250px;
+  position: absolute;
+
+  animation-name: sparkle-grow-3;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.sparkle-7 {
+  height: 5vh;
+  top: 83px;
+  right: 220px;
+  position: absolute;
+
+  animation-name: sparkle-grow-3;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes sparkle-grow {
+  0% {
+      transform: scale(1);
+  }
+  100% {
+      transform: scale(1.5);
+  }
+}
+
+@keyframes sparkle-grow-2 {
+  0% {
+      transform: scale(1.2);
+  }
+  100% {
+      transform: scale(1);
+  }
+}
+
+@keyframes sparkle-grow-3 {
+  0% {
+      transform: scale(1);
+  }
+  100% {
+      transform: scale(1.4);
+  }
+}
+
+.resume-cloud {
+  height: 46.5vh;
+  bottom: 0px;
+  left: 0px;
+  position: absolute;
+}
+
+.resume-words {
+  height: 42vh;
+  bottom: 2px;
+  left: 4.5px;
+  position: absolute;
+}
+
+.resume-words:hover {
+  transform:scale(1.05);
+}
+
+.about-cloud-2 {
+  height: 39.5vh;
+  top: 25px;
+  right: 0px;
+  position: absolute;
+
+  animation-name: cloud-float;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes cloud-float {
+  0% {top: 0%;}
+  100% {top: 5%}
+}
+
+.gradients {
+  width: 130%;
+  bottom: 0px;
+  left: 0px;
+  position: absolute;
+  overflow: hidden;
 }
 
 .icons {
@@ -350,4 +514,24 @@ h4 {
 
 .education-section {
   margin-bottom: 55px;
+}
+
+/* ART SECTION */
+
+.art-headings {
+  color: white;
+  letter-spacing: 1px;
+  margin: 1.5%;
+  text-align: center;
+}
+
+.art-grid {
+  width: 65%;
+  display: center;
+  justify-content: center;
+  
+}
+
+.art-images {
+  height: 60vh;
 }

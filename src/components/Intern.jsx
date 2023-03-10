@@ -5,7 +5,6 @@ import { CardContent } from 'semantic-ui-react';
 import { CardActionArea } from '@mui/material';
 
 function Intern(props) {
-    console.log('I was triggered during render')
     const listItems = props.description;
     if (listItems) {
         var descItems = listItems.map(function(descItem, key){

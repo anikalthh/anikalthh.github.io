@@ -19,6 +19,7 @@ function Navigation() {
                                                 element.scrollIntoView({behavior: 'smooth'});
                                                 }}>ABOUT ME</Nav.Link>
                 <Nav.Link className="Nav-text" as={Link} to="./Experience">EXPERIENCE</Nav.Link>
+                {/* <Nav.Link className="Nav-text" as={Link} to="./Art">ART</Nav.Link> */}
                 <Nav.Link className="Nav-text" as={Link} to="./Contact">SAY HELLO</Nav.Link>
             </Nav>
         </Container>
