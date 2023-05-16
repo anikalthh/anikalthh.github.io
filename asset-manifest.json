@@ -1,25 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.033e5838.css",
-    "main.js": "/static/js/main.1a27b9ef.js",
-    "static/js/496.cb42b4d0.chunk.js": "/static/js/496.cb42b4d0.chunk.js",
+    "main.css": "/static/css/main.7a6e7511.css",
+    "main.js": "/static/js/main.0c0443b9.js",
+    "static/js/496.63180695.chunk.js": "/static/js/496.63180695.chunk.js",
     "static/media/gradients.png": "/static/media/gradients.f1bd5a0fb34a797eeae8.png",
     "static/media/about-me-pic.jpg": "/static/media/about-me-pic.ca71145f0f720ae4abf7.jpg",
     "static/media/gradient.png": "/static/media/gradient.1e51e256aaa16d5b6c0e.png",
-    "static/media/IMG_1220.JPG": "/static/media/IMG_1220.83c0011514ec8bf43c1c.JPG",
     "static/media/real_cloud.png": "/static/media/real_cloud.3ded39e09933f7ba5353.png",
-    "static/media/IMG_1092.PNG": "/static/media/IMG_1092.f6d3625c566b43259bf0.PNG",
     "static/media/resume-words.png": "/static/media/resume-words.ac701291b94ae01862a1.png",
     "static/media/clickhere.png": "/static/media/clickhere.d890bbd05740e42f6165.png",
     "static/media/resume-cloud.png": "/static/media/resume-cloud.6f0e08fd2dbeeae4af77.png",
     "static/media/sparkle.png": "/static/media/sparkle.c2c95f34e74f27f5fdf6.png",
     "index.html": "/index.html",
-    "main.033e5838.css.map": "/static/css/main.033e5838.css.map",
-    "main.1a27b9ef.js.map": "/static/js/main.1a27b9ef.js.map",
-    "496.cb42b4d0.chunk.js.map": "/static/js/496.cb42b4d0.chunk.js.map"
+    "main.7a6e7511.css.map": "/static/css/main.7a6e7511.css.map",
+    "main.0c0443b9.js.map": "/static/js/main.0c0443b9.js.map",
+    "496.63180695.chunk.js.map": "/static/js/496.63180695.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.033e5838.css",
-    "static/js/main.1a27b9ef.js"
+    "static/css/main.7a6e7511.css",
+    "static/js/main.0c0443b9.js"
   ]
 }
